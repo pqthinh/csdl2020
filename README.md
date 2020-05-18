@@ -19,7 +19,7 @@ Quản lý file dùng git . IDE netbean 8.0.2 . push commit = gitdesktop
 CSDL: phpMyAdmin ( xampp ) / truy vấn sd mysqli+php
 
 <hr>
-Chức năng :
+Chức năng :<br/>
 +Trong phần hiển thị thông tin người dùng không hiển thị hóa đơn hiện tại
 
 +Show sản phẩm bán chạy / ưa thích / sp mới nhất / sp có khuyến mãi / sp hàng vn / theo danh mục sp
