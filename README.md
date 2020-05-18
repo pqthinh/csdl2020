@@ -98,4 +98,5 @@ Truy vấn cơ bản sử dụng trong bài .
 ...
 
 <br>
-<p style="border-botom: 1px solid red; text-align: center;"> end</p>
+<p style="border-botom: 1px solid red; text-align: center;">end</p>
+<p>--------------------Kết thúc ngày 18/5/2020--------------------------</p>
