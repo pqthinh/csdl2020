@@ -3,8 +3,9 @@
 
 link website pc demo : https://csdl-2020.000webhostapp.com
 
-username : pqthinh0@gmail.com
-password: 123
+username : pqthinh0@gmail.com | password: 123 <thành viên>
+
+username : admin | admin <quản trị viên>
 
 <p>link git: https://github.com/pqthinh/csdl2020-phpsql-v2 </p>
 <hr>
