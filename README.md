@@ -12,7 +12,7 @@ username : admin | admin <quản trị viên>
 
 Ngôn ngữ sd : 
 
-php html css + 1 chút js
+php html css js
 
 Quản lý file dùng git . IDE netbean 8.0.2 . push commit = gitdesktop
 
@@ -20,6 +20,7 @@ CSDL: phpMyAdmin ( xampp ) / truy vấn sd mysqli+php
 
 <hr>
 Chức năng :
++Trong phần hiển thị thông tin người dùng không hiển thị hóa đơn hiện tại
 
 +Show sản phẩm bán chạy / ưa thích / sp mới nhất / sp có khuyến mãi / sp hàng vn / theo danh mục sp
 
