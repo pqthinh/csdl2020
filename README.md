@@ -70,8 +70,7 @@ Mô hình csdl:
 Mô hình liên kết bảng :
 <br>
 
-
-![alternativetext](mohinhlienketbang.PNG)
+![alternativetext](mohinhlienketbang.png)
 <hr>
 Truy vấn cơ bản sử dụng trong bài .
 
