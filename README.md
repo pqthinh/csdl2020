@@ -71,7 +71,7 @@ Mô hình liên kết bảng :
 <br>
 
 
-![alternativetext](csdl-rel.PNG)
+![alternativetext](mohinhlienketbang.PNG)
 <hr>
 Truy vấn cơ bản sử dụng trong bài .
 
