@@ -1,7 +1,8 @@
-# csdl2020-v5
+# csdl2020-v5 _ web điện thoại _ php
 Đề tài : Website bán điện thoại di động online
 
-<ul>1 Giới thiệu :
+<ul>
+  <p>1 Giới thiệu : </p>
   <li><p>Link git :  https://github.com/pqthinh/csdl2020-v3<p></li>
   <li><p>Link web demo: https://csdl-2020.000webhostapp.com<p></li>
 ( Đăng nhập :  pqthinh0@gmail.com | 123  hoặc admin| admin) 
@@ -21,7 +22,7 @@
       <li>https://www.mysql.com  (mysql)</li>
   </ul>
   </li>
-<ul>
+</ul>
 <hr>
   
 2 Chức năng :<br/>
