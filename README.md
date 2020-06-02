@@ -56,6 +56,7 @@ https://shorturl.at/eprK9 (LINK gg docx)<br>
 Mô hình liên kết bảng :
 <br>
 ![alternativetext](mohinhlienketbang.png)
+
 <hr>
 
 4 Truy vấn cơ bản sử dụng trong bài .
