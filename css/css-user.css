@@ -1,0 +1,132 @@
+#thay_anh {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(44, 69, 88, 0.9);
+    top:0;
+    left:0;
+}
+.thay_anh {
+    width: 300px;
+    margin: auto;
+    background: #333;
+    text-align: center;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+.left{
+    width: 25%;
+/*    margin-top: 30px;*/
+    border-right: 1px solid #e0e0e0;
+/*    position: fixed;
+    float: left;*/
+}
+.avatar {
+    width: 90%;
+    border: 1px solid #e0e0e0;
+    margin: auto;
+}
+
+.l_content,.donhang {
+    width: 90%;
+    margin-top: 30px;
+/*    margin: auto;*/
+    text-align: center;
+    line-height: 30px;
+    border-radius: 30px;
+    background: #57b846;
+    cursor: pointer;
+    color: #fff;
+}
+.l_content:hover,.donhang:hover{
+    background: #fff;
+    color: #57b846;
+    border: 1px solid #57b846;
+}
+.right{
+    width: 74%;
+    text-align: center;
+}
+.r_content {
+/*    //display: flex;*/
+}
+
+.thongtin_l{
+    width: 78%;
+}
+.donhang{
+    height: 35px;
+}
+.head_form{
+	font-size: 24px;
+	color: #57b846;
+	line-height: 1.2;
+	text-align: center;
+	width: 100%;
+	display: block;
+	padding-bottom: 20px;
+        white-space: nowrap;
+}
+.box{
+	width: 40%;
+	margin: auto;
+}
+label {
+	font-size: 18px;
+        font-weight: 400;
+/*	//font-family: monospace;*/
+	top:0px;
+	left:0px;
+	color:#57b846;;	
+        pointer-event:none;
+	padding: 10px;
+        white-space: nowrap;
+
+}
+input {
+	width: 200px;
+	border-radius: 30px;
+	background: #e0e0e0;
+	height: 30px;
+	text-align: center;
+	line-height: 1.2;
+        border: none;
+        margin: 10px 0;
+        
+}
+#date {color: #57b846; }
+
+#remember-pass {
+    border: none;
+    background: #e0e0e0;
+}
+input:focus{
+	width: 202px;
+	height: 32px;
+	border:none;
+}
+.save {
+        margin-top: 30px;
+	background: #57b846;
+	cursor: pointer;
+        color: #fff;
+}
+.save:hover {
+	background: #fff;
+        color: #57b846;
+        border: 1px solid #57b846;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: capitalize;
+}
+a:hover{
+	color: red;
+	transition: all 0.4 ease;
+}

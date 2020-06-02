@@ -1,0 +1,670 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+	font:14px;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	outline: 0;
+}
+a {
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: capitalize;
+}
+a:hover{
+	color: red;
+	transition: all 0.4 ease;
+}
+.top0 {
+	background: #d0d8bb;
+	width: 100%;
+	border-bottom: 1px solid #cdcdcd;
+}
+	.top0 .container{
+		width: 1200px;
+		margin: auto;
+		padding: 5px;
+		display: flex;
+	}
+
+		.top0 .container .l{
+			width: 40%;
+		}
+		.top0 .container .r{
+			width: 60%;
+		}
+.menu-chung{
+	width: 100%;
+	padding: 15px;
+	display: flex;
+	font-size: 20px;
+
+}
+
+	.menu-chung .logo {
+		width: 30%;
+		background: url("../image/logo4.png") no-repeat;
+		background-size: contain;
+		margin-left: 60px;
+		align-items: center;
+		
+	}
+
+		.menu-chung .logo  .c {
+			margin: auto;
+		}
+			.menu-chung .logo .c a {
+				font-size: 30px;
+				color: #000000;
+				margin-left: 60px;
+			}
+				.menu-chung .logo .c a span{
+					font-size: 30px;
+					color: red;
+				}
+	.menu-chung .content-menu {
+		display: flex;
+		width: 50%;
+		padding: 10px 20px;
+	}
+		.menu-chung .content-menu .trang-chu{
+			margin-right: 30px;
+			white-space: nowrap;
+		}
+		.menu-chung .menu-fun {
+			width: 20%;
+		}
+			.menu-chung .menu-fun ul {
+				display: flex;
+				line-height: 45px;
+			}
+				.menu-chung .menu-fun ul li{
+					position: relative;
+					margin-right: 30px;
+					list-style-type: none;
+				}
+
+.search- {
+	width: 100%;
+	margin: auto;
+}
+#search-form {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    top: 72px;
+    height: 60px;
+    position: absolute;
+    right: 0;
+    width: 280px;
+}
+
+.menu-phu {
+	background-image: url("../image/top.jpg") ;
+	color:white;
+	box-sizing: border-box;
+}
+	.menu-phu .container {
+		margin:auto;
+		width: 1200px;
+		padding:10px 0 10px;
+		display: flex;
+/*		//font-family: monospace;*/
+	}
+		.menu-phu .container .l-header{
+			display: flex;
+			width: 75%;
+			text-transform: uppercase;
+		}
+			.menu-phu .container .l-header i{
+				color: #ffc83d;
+			}
+				.menu-phu .fa-bolt::before {
+					content: "\f0e7";
+				}
+
+		.menu-phu.container .r-header{
+			
+		}
+			.menu-phu .container .r-header ul {
+				display: flex;
+			}
+				.menu-phu .container .r-header ul li {
+					list-style-type: none;
+					padding-left: 35px;
+					white-space: nowrap;
+				}
+					.menu-phu .container .r-header ul li a{
+						color: white;
+						text-decoration: none;
+						display: inline-block;
+						text-transform: capitalize;
+						overflow-wrap: break-word;
+					}
+
+					.menu-phu .container .r-header ul li a:hover{
+						color: red;
+					}
+.banner {
+	width: 90%;
+	display: flex;
+	margin: auto;
+	padding: 15px;
+	border-bottom: 1px solid #cdcdcd;
+}
+/* css cho slide quang cao*/
+.slideshow-container {
+	width: 100%;
+	position: relative;
+}
+.mySlides{
+	display: none;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	margin-top: -22px;
+	width: auto;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	transition: all .4s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	padding: 16px;
+}
+.next{
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover , .next:hover{
+	background-color: rgb(0,0,0,0.8);
+}
+.text {
+	color: #f2f2f2;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.dot {
+	cursor: pointer;
+	width: 10px;
+	height: 10px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+ 	background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.banner .slideshow-container img {
+	background-color: #00000042;
+	background-blend-mode: color;
+}
+.banner .shopping {
+	width: 29%;
+	margin-left: 10px;
+}
+	.banner .shopping .cover {
+		height: 29%;
+		margin: 0 0 10px 0;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+		border-radius: 10px;
+	}
+		.banner .shopping .cover div {
+			text-align: center;
+		}
+			.banner .shopping .cover div a{
+				padding: 10px 10px;
+				background: white;
+				display: inline-block;
+				text-decoration: none;
+				text-transform: initial;
+				color: #000;
+				transition: all .4s ease;
+				border-radius: 5px;
+			}
+			.banner .shopping .cover div a:hover{
+				background: red;
+			}
+				.banner .shopping .cover div a .icon-user{
+					background: url("../image/guest-512.png") no-repeat;
+					background-size:contain;
+				}
+		.banner .shopping .cover:first-child{
+			background: url("../image/shopping.jpg") no-repeat;
+			background-size:cover;
+
+			background-color: #00000042;
+			background-blend-mode: color;
+		}
+		.banner .shopping .cover:nth-child(2){
+			background: url("../image/dangky.jpg") no-repeat;
+			background-size:cover;
+			background-color: #00000042;
+			background-blend-mode: color;
+		}
+		.banner .shopping .cover:nth-child(3){
+			background: url("../image/shopping.jpg") no-repeat;
+			background-size:cover;
+
+			background-color: #00000042;
+			background-blend-mode: color;
+		}
+
+.container {
+  width: 1200px;
+  margin: auto; }
+
+service {
+  display: block;
+  width: 100%;
+  padding: 10px }
+  service .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 20px 0;
+    border-bottom: 1px solid #e0e0e0; }
+    service .container .__slo {
+      margin-right: 75px; }
+      service .container .__slo .__p {
+        text-transform: uppercase;
+        font-size: 18px; }
+        service .container .__slo .__p i {
+          color: #ff6f61;
+          margin-right: 5px; }
+
+
+category {
+  display: block;
+  width: 100%;
+  padding: 10px; 
+  border-bottom: 1px solid #e0e0e0}
+  category .r-banner {
+    display: flex;
+    justify-content: space-between; }
+  category .items {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    margin: 0 5px 5px 5px;
+    border-radius: 5px; }
+    category .items div {
+        width: 100%;
+        text-align: center; }
+        category .items div p {
+            font-size: 30px;
+            color: #fff;
+            text-transform: capitalize; }
+        category .items div a {
+            display: inline-block;
+            text-decoration: none;
+            color: #000;
+            text-transform: capitalize;
+            background: #fff;
+            padding: 8px 15px;
+            transition: all .4s ease;
+            margin-top: 10px; 
+            border-radius: 5px;}
+
+            category .items div a:hover {
+                background: #ff6f61;
+                color: #fff; }
+            category .items:first-child {
+                background: url("../image/iPad.png") no-repeat;
+                background-color: #00000040;
+                background-size: contain;
+                background-blend-mode: color; }
+            category .items:nth-child(even) {
+                background: url("../image/smartphone.png") no-repeat;
+                background-color: #00000040;
+                background-size: contain;
+                background-blend-mode: color; }
+            category .items:last-child {
+                background: url("../image/banphim.jpg") no-repeat;
+                background-color: #00000040;
+                background-size: contain;
+                background-blend-mode: color; }
+
+.bestPick {
+  display: block;
+  width: 100%; 
+}
+	.bestPick .container .r-content {
+		margin-top: 50px;
+		text-align: center;
+		text-transform: capitalize; 
+	}
+	    .bestPick .container .r-content h2 {
+			font-weight: 600;
+			font-size: 25px; }
+		.bestPick .container .r-content p {
+			margin-top: 15px;
+			font-weight: 400; }
+	.bestPick .container .r-img {
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: space-between; 
+		align-items: center;
+	}
+		.bestPick .container .r-img .imag {
+			margin-top: 25px;
+			margin-left: 25px;
+			height: 40vh;
+			width: 30%;
+		}
+		.bestPick .container .r-img .imag p {
+			text-align: center;
+			color: #fff;
+			text-transform: capitalize;
+			line-height: 40vh;
+			font-size: 20px; 
+		}
+        .bestPick .container .r-img .imag:first-child {
+	    	background: url("../image/iPhone11-pro.jpg") no-repeat;
+        	background-size: contain; 
+	}
+        .bestPick .container .r-img .imag:nth-child(2) p {
+	        text-align: left;
+	        padding-left: 20px;
+	        color: #000;
+	        text-transform: capitalize;
+	        line-height: 40vh; }
+        .bestPick .container .r-img .imag:nth-child(3) p {
+	        text-align: left;
+	        padding-left: 20px;
+	        color: #000;
+	        text-transform: capitalize;
+	        line-height: 40vh; }
+	   
+        .bestPick .container .r-img .imag:nth-child(2) {
+	        background: url("../image/vsmart-joy-3.jpg") no-repeat;
+        	background-size: contain; }
+       .bestPick .container .r-img .imag:nth-child(3) {
+	        
+	        background: url("../image/realme-6-bestpic.jpg") no-repeat;
+	        background-size: contain; }
+       .bestPick .container .r-img .imag:nth-child(4) {
+       		margin-left: 15%;
+	        width: 40%;
+	        background: url("../image/xiaomi-redmi-note-9s.jpg") no-repeat;
+	        background-size: contain;
+	        align-items: center; }
+       .bestPick .container .r-img .imag:last-child {
+	        width: 40%;
+	        background: url("../image/samsung-galaxy-s20.jpg") no-repeat;
+	        background-size: contain; }
+
+.hangvn {
+	width: 100%;
+	display: block;
+	margin-top: 30px;
+	border-top: 1px solid #e0e0e0;
+	padding: 10px 10px;
+}
+	
+	.hangvn .container .r-content {
+		margin: 50px 0 50px 0;
+		text-align: right;
+		text-transform: capitalize; 
+		background: url("../image/Vsmart42-b_40.png") no-repeat;
+		background-size: contain;
+		background-position: 30%;
+	}
+	    .hangvn .container .r-content h2 {
+			font-weight: 600;
+			font-size: 25px; }
+		.hangvn .container .r-content p {
+			margin-top: 15px;
+			font-weight: 400; }
+
+	.hangvn .container .r-img {
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: space-between; 
+		align-items: center;
+	}
+		.hangvn .container .r-img .imag {
+			margin: 10px 12px 5px 12px;
+			height: 40vh;
+			width: 20%;
+		}
+		.hangvn .container .r-img .imag p {
+			text-align: center;
+			color: #fff;
+			text-transform: capitalize;
+			line-height: 30vh;
+			font-size: 16px; 
+		}
+/*		.hangvn .container .r-img .imag:first-child {
+                            background: url("../image/vsmart-active-3-6gb-emerald-green-600x600-600x600.jpg") no-repeat;
+                            background-size: contain; }
+                        .hangvn .container .r-img .imag:nth-child(2) {
+                            background: url("../image/vsmart-active-3-600x600-600x600.jpg") no-repeat;
+                            background-size: contain; }
+                    .hangvn .container .r-img .imag:nth-child(3) {
+                            background: url("../image/vsmart-bee-3-white-600x600-600x600.jpg") no-repeat;
+                            background-size: contain; }
+                    .hangvn .container .r-img .imag:nth-child(4) {
+                            background: url("../image/vsmart-bee-blue-600x600.jpg") no-repeat;
+                            background-size: contain; }
+                    .hangvn .container .r-img .imag:nth-child(5) {
+                            background: url("../image/vsmart-joy-3-2gb-tim-600x600-600x600.jpg") no-repeat;
+                            background-size: contain; }
+                    .hangvn .container .r-img .imag:nth-child(6) {
+                            background: url("../image/vsmart-live-blue-600x600.jpg") no-repeat;
+                            background-size: contain; }
+                    .hangvn .container .r-img .imag:nth-child(7) {
+                            background: url("../image/vsmart-star-3-xanh-600x600-600x600.jpg") no-repeat;
+                            background-size: contain; }
+                    .hangvn .container .r-img .imag:nth-child(8) {
+                            background: url("../image/vsmart-star-coral-600x600.jpg") no-repeat;
+                            background-size: contain; }*/
+
+
+.container5 {
+	margin: auto;
+	width: 1200px;
+	font-family: 'Quicksand', sans-serif;
+	padding: 25px 0;
+}
+	.container5 .r-sell{
+		text-align: center;
+		line-height: 1vh;
+		padding-bottom: 25px;
+	}
+	.container5 .filter-sell{
+		background-color: #f2f2f2; 
+		display: flex;
+	}
+		.container5 .filter-sell select{
+			width: 200px;
+			margin: 15px;
+			text-transform: capitalize;/*Chuyen tolowercase -? thnahf chu viet hao chu dau tien*/
+			padding: 10px;
+		}
+		.container5 .filter-sell a{
+			height: 5vh;
+			text-decoration: none;
+			text-transform: uppercase;
+			background: red;
+			transition: all .4s ease;
+			border-radius: 10px 10px;
+			width: 180px;
+
+			margin: 15px 0 5px 5px;
+			text-align: center;
+			color: white;
+			line-height: 4vh;
+		}
+                .container5 .filter-sell input{
+			height: 5vh;
+			text-decoration: none;
+			text-transform: uppercase;
+			background: red;
+			transition: all .4s ease;
+			border-radius: 10px 10px;
+			width: 180px;
+
+			margin: 15px 0 5px 5px;
+			text-align: center;
+			color: white;
+			line-height: 4vh;
+		}
+
+.sp {
+	width: 100%;
+	display: block;
+}
+	.sp .container {
+		width: 1200px;
+		margin: auto;
+		display: grid;
+		grid-row-gap: 30px;
+		grid-column-gap: 15px;
+		grid-template-columns: repeat(4,1fr);
+	}
+		.sp .container .sanpham{
+			width: 99%;
+			color: #000;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+			.sp .container .sanpham .img{
+				position: relative;
+				overflow: hidden;
+			}	
+				.sp .container .sanpham  .img a {
+					text-decoration: none;
+					color: inherit;
+				}
+					.sp .container .sanpham  .img a img{
+						height: 260px;
+						width: 99%;
+					}
+				.sp .container .sanpham .img .f-icon{
+					bottom: -100;
+					padding: 15px 0;
+					position: absolute;
+					text-align: center;
+					width: 100%;
+					transition: all .2s ease;
+				}
+				.sp .container .sanpham .img:hover .f-icon{
+					bottom: 0;
+				}
+					.sp .container .sanpham .img .f-icon a{
+						background: #fff;
+						border-radius: 50%;
+						box-shadow: 0 0 5px #a0a0a0;
+						width: 35px;
+						height: 35px;
+						display: inline-block;
+						margin: 0 10px;
+						line-height: 35px;
+					}
+					.sp .container .sanpham .img .f-icon a:hover{
+						background: red;
+						color: white;
+						transition: all .4s ease;
+					}
+			.sp .container .sanpham .content{
+					width: 100%;
+					padding: 10px 0;
+				}
+				.sp .container .sanpham .content #dis{
+					color:red;
+				}
+					.sp .container .sanpham .content #dis strike{
+						color:#000;
+						margin-right: 10px;
+					}
+footer {
+	margin-top: 30px;
+	width: 100%;
+	display: block;
+	padding: 20px;
+	border-top:1px solid #e0e0e0;
+}
+footer .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px; 
+}
+    footer .container .box1 .__box1 {
+        font-size: 15px; 
+        border-bottom: 1px solid #e0e0e0;
+        margin: 10px 5px 10px 0;
+    }
+	    footer .container .box1 .__box11 p {
+	        font-weight: 13px;
+	    }
+footer .design {
+	margin-top: 15px;
+	width: 100%;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	text-transform: capitalize;
+	padding: 15px 0; 
+} 
+
+
+.feedback {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 5%;
+    left: 5%;
+    transition: all .5s ease;
+}
+.feedback:hover {
+   transform: rotate(1turn);
+   
+}
+.content_feedback {
+    width: 800px;
+    margin: auto;
+    background: #fff;
+    margin-top: 40px;
+    text-align: center;
+}

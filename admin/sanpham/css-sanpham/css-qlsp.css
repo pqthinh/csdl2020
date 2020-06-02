@@ -1,0 +1,72 @@
+.sp {
+	width: 100%;
+	display: block;
+}
+	.sp .container_sp {
+		width: 1200px;
+		margin: auto;
+		display: grid;
+		grid-row-gap: 30px;
+		grid-column-gap: 15px;
+		grid-template-columns: repeat(3,1fr);
+	}
+		.sp .container_sp .sanpham_sp{
+			width: 99%;
+			color: #000;
+			margin-left: 10px;
+			margin-top: 10px;
+		}
+			.sp .container_sp .sanpham_sp .img_sp{
+				position: relative;
+				overflow: hidden;
+			}	
+				.sp .container_sp .sanpham_sp  .img_sp a {
+					text-decoration: none;
+					color: inherit;
+				}
+					.sp .container_sp .sanpham_sp  .img_sp a img{
+						height: 260px;
+						width: 99%;
+					}
+				.sp .container_sp .sanpham_sp .img_sp .f-icon{
+					bottom: -100;
+					padding: 15px 0;
+					position: absolute;
+					text-align: center;
+					width: 100%;
+					transition: all .2s ease;
+				}
+				.sp .container_sp .sanpham_sp .img_sp:hover .f-icon{
+					bottom: 0;
+				}
+					.sp .container_sp .sanpham_sp .img_sp .f-icon a{
+						background: #fff;
+						border-radius: 50%;
+						box-shadow: 0 0 5px #a0a0a0;
+						width: 35px;
+						height: 35px;
+						display: inline-block;
+						margin: 0 10px;
+						line-height: 35px;
+					}
+					.sp .container_sp .sanpham_sp .img_sp .f-icon a:hover{
+						background: red;
+						color: white;
+						transition: all .4s ease;
+					}
+			.sp .container_sp .sanpham_sp .content_sp{
+					width: 100%;
+					padding: 10px 0;
+				}
+				.sp .container_sp .sanpham_sp .content_sp #dis{
+					color:red;
+				}
+					.sp .container_sp .sanpham_sp .content_sp #dis strike{
+						color:#000;
+						margin-right: 10px;
+					}
+                                        
+.pagination {
+    text-align: center;
+    margin-left: 300px;
+}

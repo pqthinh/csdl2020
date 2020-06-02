@@ -1,0 +1,55 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Quicksand', sans-serif;
+	font:14px;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	outline: 0;
+}
+.top {
+	border-bottom: 1px solid #ececec;
+	background: #f4f4f4;
+	padding: 3px 3px;
+	font-size: 14px;
+}
+	.top .container {
+		width: 1200px;
+		margin: auto;
+		overflow: hidden;
+		display: flex;
+	}
+		.top .container .left-top {
+			width: 50%;
+		}
+
+		.top .container .rigth-top {
+			width: 50%;
+		}
+			.top .container .right-top .chamsockhachhang {
+
+			}
+				.top .container .right-top .chamsockhachhang .cskh{
+					bottom: -100;
+				}
+				.top .container .right-top .chamsockhachhang:hover .cskh{
+					bottom: 5;
+				}
+ul {
+	list-style: none;
+	position: relative;
+}
+a {
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: capitalize;
+}
+a:hover{
+	color: red;
+	transition: all 0.4 ease;
+}

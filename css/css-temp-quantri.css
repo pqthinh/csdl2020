@@ -1,0 +1,139 @@
+*{
+	padding: 0px;
+	margin:0px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.menu{
+	width: 250px;
+	float: left;
+	border:1px solid #e0e0e0;
+	height: 100vh;
+        position: fixed;
+}
+.content {
+	width: calc(100% - 262px);
+	margin-left: 262px;
+	height: 100vh;
+
+}
+
+#frame {
+    margin: auto;
+    width: 100%;
+    height:calc(100vh - 200px);
+    margin-top: 30px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+}
+.header {
+	padding-top: 15px;
+	border-bottom: 1px solid #e0e0e0;
+}
+a {
+    color: #000;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize;
+}
+a:hover {
+    color: red;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+.logo {
+	height: 50px;
+	display: flex;
+}
+	.logo .icon {
+		width: 60px;
+		background: url("../image/logo4.png") no-repeat;
+		background-size: cover;
+		color: red;
+	}
+	.logo .text {
+		width: 100%;
+		font-size: 30px;
+		line-height: 37px;
+		padding: 5px;
+		display: inline-block;
+
+	}
+	.logo .text:after {
+	    content: '';
+	    display: block;
+	    width: 0;
+	    height: 2px;
+	    background: red;
+	    transition: width .3s;
+	}
+		.logo .text:hover:after {
+		    width: 100%;
+		}
+	
+		.logo .text span {
+			color: red;
+		}
+.quanly {
+	display: flex;
+	align-items: center;
+	width: 90%;
+	margin-left: 15px;
+	white-space: nowrap;
+        cursor: pointer;
+}
+	.quanly .text {
+		width: 100%;
+		font-size: 14px;
+		line-height: 30px;
+		padding: 5px;
+		display: inline-block;
+		margin-left: 10px;
+
+	}
+	.quanly .text:after {
+	    content: '';
+	    display: block;
+	    width: 0;
+	    height: 2px;
+	    background: red;
+	    transition: width .3s;
+	}
+		.quanly .text:hover:after {
+		    width: 100%;
+		}
+	
+.quanly:hover .icon{
+	color: red;
+	transition: all .4s ease;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+} 
+.tab {
+    display: flex;
+    
+}
+    .tab .qlnhanvien {
+        background: #dadada;
+        cursor: pointer;
+        border: 1px solid #e0e0e0;
+        white-space: nowrap;
+        margin-right: 15px;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+    }
+    .tab .content_ofTab_qlnhanvien{
+        height: calc(100vh - 100px);
+        width: 100%;
+    }
+        .tab .content_ofTab_qlnhanvien .content_subtab{
+            display: none;
+            width: 98%;
+            height: 98%;
+        }
