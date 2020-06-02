@@ -1,7 +1,7 @@
 # csdl2020-v5 _ web điện thoại _ php
 Đề tài : Website bán điện thoại di động online
 
-shorturl.at/eprK9 (LINK gg docx)
+https://shorturl.at/eprK9 (LINK gg docx)<br>
 (Chức năng chi tiết + truy vấn cơ bản + Chi tiết các bảng trong csdl )
 
 <ul>
