@@ -26,63 +26,47 @@ https://shorturl.at/eprK9 (LINK gg docx)<br>
   </ul>
   </li>
 </ul>
+
 <hr>
-  
+
 2 Chức năng : <br/>
-+Trong phần hiển thị thông tin người dùng không hiển thị hóa đơn hiện tại
++Người dùng ( thành viên / khách hàng ) đăng nhập vào hệ thống có thể xem / sửa thông tin / xem lịch sửa mua hàng / đơn hàng hiện tại / xem + tìm kiếm + mua + thanh toán ( không có thanh toán online [chỉ nhận tiền khi giao hàng] )  + báo cáo lỗi về trang admin <br>
 
-+Show sản phẩm bán chạy / ưa thích / sp mới nhất / sp có khuyến mãi / sp hàng vn / theo danh mục sp
++Hiển thị nội dung trang web : Show sản phẩm bán chạy / ưa thích / sp mới nhất / sp có khuyến mãi / danh mục sp / hỗ trợ người dùng tìm kiếm + lọc thông tin theo cái đặc điểm như giá tiền, tên sp, loại sản phẩm ,hãng ,tính năng ...  / hiển thị trang cá nhân của thành viên / trang giỏ hàng <br>
 
-+Tìm kiếm sản phẩm + hiển thị quảng cáo phù hợp với kết quả tìm kiếm
++Hiển thị quảng cáo phù hợp với kết quả khi người dùng tìm kiếm
 
-+Giỏ hàng / thêm sp vào giỏ / sửa số lượng sp trong giỏ / xóa sp khỏi giỏ hàng
++Giỏ hàng : thêm sp vào giỏ / sửa số lượng sp trong giỏ / xóa sp khỏi giỏ hàng 
 
 +Chức năng thanh toán :
-  (lấy thông tin thành viên -> thông tin trên bảng khách hàng)
-  (lấy thông tin từ bảng giỏ hàng chèn vào bảng hóa đơn )
-  (làm rỗng giỏ hàng khi đã thanh toán)
+  b1:(lấy thông tin thành viên -> thông tin trên bảng khách hàng | lấy thông tin nhân viên phù hợp đề chèn vào bảng khách hàng)<br>
+  b2:(lấy thông tin từ bảng giỏ hàng chèn vào bảng hóa đơn )<br>
+  b3:(lấy thông tin người nhận hàng mà người dùng nhập rồi chèn vào bảng thanh toán )<br>
+  b4:(làm rỗng giỏ hàng khi đã thanh toán)<br>
   
-+Đăng nhập quyền admin/ thành viên . Đăng ký thành viên mới
++Xứ lý thông tin lúc đăng nhập ( admin/ thành viên ), đăng ký thành viên mới 
+  * chỉ có 1 tài khoản admin để quản lý trang *
 
-+Danh mục quản trị viên : 
--Quản lý ds nhân viên
--Quản lý hóa đơn (trạng thái đơn hàng)
--Quản lý danh mục sp ( thêm sửa xóa sp / sp khuyến mãi)
++Quản trị viên : 
+-Quản lý ds nhân viên (xem, thêm ,sửa , xóa thông tin của nhân viên )
+-Quản lý hóa đơn (xem ,sửa đơn hàng )
+-Quản lý danh mục sp ( thêm sửa xóa sp / thêm sp khuyến mãi)
 -Tính toán doanh thu :(không có)
 -Quản lý lỗi do người dùng báo cáo về hệ thống
+
 <hr>
+
 3 Mô hình csdl:
 <br>
 Mô hình liên kết bảng :
 <br>
+
 ![alternativetext](mohinhlienketbang.png)
 
 <hr>
 
-4 Truy vấn cơ bản sử dụng trong bài .
-
-+Lấy thông tin sản phẩm :
-
-+Lấy thông tin sp đang có khuyến mãi :
-
-+Sản phẩm nổi bật / mới nhất / bán chạy nhất
-
-+Lọc sản phẩm :
-
-+Tìm kiếm sp theo tên
-
-+Insert dữ liệu vào bảng
-
-+Update dữ liệu
-
-+Xóa dữ liệu
-
-+Lấy thông tin từ giỏ hàng
-
-+Lấy thông tin hóa đơn 
-
-...
+4 Truy vấn cơ bản sử dụng trong bài .( <a href="https://docs.google.com/document/d/1x7DE3xb-B_Crvc4eEayqBQXC59vljLrhA8UWSNZlPe8/edit?fbclid=IwAR1o4_SoUDmnixUT0nnaiH6f25YIWftxi6Coa03184RLu2yZVHcGva0Wqvw">có trong chi tiết báo cáo</a> )
 
 <br>
 <p style="border-botom: 1px solid red; text-align: center;">end</p>
-<p>--------------------Kết thúc ngày 18/5/2020--------------------------</p>
+<p>--------------------Sửa: 6/2/2020--------------------------</p>
