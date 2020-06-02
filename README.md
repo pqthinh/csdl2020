@@ -2,7 +2,7 @@
 Đề tài : Website bán điện thoại di động online
 
 https://shorturl.at/eprK9 (LINK gg docx)<br>
-(Chức năng chi tiết + truy vấn cơ bản + Chi tiết các bảng trong csdl )
+(LINK gg docx bên trên chứa Chức năng chi tiết + truy vấn cơ bản + Chi tiết các bảng trong csdl )
 
 <ul>
   <p>1 Giới thiệu : </p>
