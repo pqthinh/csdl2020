@@ -1,6 +1,9 @@
 # csdl2020-v5 _ web điện thoại _ php
 Đề tài : Website bán điện thoại di động online
 
+shorturl.at/eprK9 (LINK gg docx)
+(Chức năng chi tiết + truy vấn cơ bản + Chi tiết các bảng trong csdl )
+
 <ul>
   <p>1 Giới thiệu : </p>
   <li><p>Link git :  https://github.com/pqthinh/csdl2020-v3<p></li>
@@ -25,7 +28,7 @@
 </ul>
 <hr>
   
-2 Chức năng :<br/>
+2 Chức năng : <br/>
 +Trong phần hiển thị thông tin người dùng không hiển thị hóa đơn hiện tại
 
 +Show sản phẩm bán chạy / ưa thích / sp mới nhất / sp có khuyến mãi / sp hàng vn / theo danh mục sp
@@ -48,38 +51,14 @@
 -Tính toán doanh thu :(không có)
 -Quản lý lỗi do người dùng báo cáo về hệ thống
 <hr>
-
-Mô hình csdl:
-
-1: Bảng sản phẩm :
-
-2: Bảng thông tin chi tiết sản phẩm
-
-3: Bảng dòng sản phẩm 
-
-4: Bảng khách hàng
-
-5: Bảng nhân viên
-
-6: Bảng hóa đơn
-
-7: Bảng ảnh
-
-8: Bảng sản phẩm khuyến mãi
-
-9: Bảng thành viên
-
-10:Giỏ hàng
-
-11: Admin (lưu thông tin người quản trị hệ thống / danh mục quản trị)
-
-<hr>
+3 Mô hình csdl:
+<br>
 Mô hình liên kết bảng :
 <br>
-
 ![alternativetext](mohinhlienketbang.png)
 <hr>
-Truy vấn cơ bản sử dụng trong bài .
+
+4 Truy vấn cơ bản sử dụng trong bài .
 
 +Lấy thông tin sản phẩm :
 
