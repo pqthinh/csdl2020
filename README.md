@@ -1,7 +1,7 @@
 # csdl2020-v5 _ web điện thoại _ php
-Đề tài : Website bán điện thoại di động online
+Đề tài : <a href="https://csdl-2020.000webhostapp.com">Website bán điện thoại di động online </a>
 
-https://shorturl.at/eprK9 (LINK gg docx)<br>
+https://shorturl.at/eprK9 (<a href="https://docs.google.com/document/d/1x7DE3xb-B_Crvc4eEayqBQXC59vljLrhA8UWSNZlPe8/edit?usp=sharing">LINK gg docx </a>)<br>
 (LINK gg docx bên trên chứa Chức năng chi tiết + truy vấn cơ bản + Chi tiết các bảng trong csdl )
 
 <ul>
