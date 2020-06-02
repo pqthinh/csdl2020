@@ -1,7 +1,7 @@
 # csdl2020-v5 _ web điện thoại _ php
 Đề tài : <a href="https://csdl-2020.000webhostapp.com">Website bán điện thoại di động online </a>
 
-https://shorturl.at/eprK9 (<a href="https://docs.google.com/document/d/1x7DE3xb-B_Crvc4eEayqBQXC59vljLrhA8UWSNZlPe8/edit?usp=sharing">LINK gg docx </a>)<br>
+https://shorturl.at/eprK9 (<a href="https://docs.google.com/document/d/1x7DE3xb-B_Crvc4eEayqBQXC59vljLrhA8UWSNZlPe8/edit?usp=sharing">XEM báo cáo chi tiết gg docx </a>)<br>
 (LINK gg docx bên trên chứa Chức năng chi tiết + truy vấn cơ bản + Chi tiết các bảng trong csdl )
 
 <ul>
@@ -65,7 +65,7 @@ Mô hình liên kết bảng :
 
 <hr>
 
-4 Truy vấn cơ bản sử dụng trong bài .( <a href="https://docs.google.com/document/d/1x7DE3xb-B_Crvc4eEayqBQXC59vljLrhA8UWSNZlPe8/edit?fbclid=IwAR1o4_SoUDmnixUT0nnaiH6f25YIWftxi6Coa03184RLu2yZVHcGva0Wqvw">có trong chi tiết báo cáo</a> )
+4 Truy vấn cơ bản sử dụng trong bài .( <a href="https://docs.google.com/document/d/1x7DE3xb-B_Crvc4eEayqBQXC59vljLrhA8UWSNZlPe8/edit?usp=sharing">có trong chi tiết báo cáo</a> )
 
 <br>
 <p style="border-botom: 1px solid red; text-align: center;">end</p>
