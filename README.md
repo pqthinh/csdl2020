@@ -1,25 +1,30 @@
-# csdl2020-v3
+# csdl2020-v5
 Đề tài : Website bán điện thoại di động online
 
-link website pc demo : https://csdl-2020.000webhostapp.com
-
-username : pqthinh0@gmail.com | password: 123 <thành viên>
-
-username : admin | admin <quản trị viên>
-
-<p>link git: https://github.com/pqthinh/csdl2020-phpsql-v2 </p>
+<ul>1 Giới thiệu :
+  <li><p>Link git :  https://github.com/pqthinh/csdl2020-v3<p></li>
+  <li><p>Link web demo: https://csdl-2020.000webhostapp.com<p></li>
+( Đăng nhập :  pqthinh0@gmail.com | 123  hoặc admin| admin) 
+<li>
+  <ul> Công nghệ sử dụng: 
+    <li>Mô hình web:  client - server </li>
+    <li>html css js (thuần) : code front-end </li>
+    <li>php (thuần) + mysql  : code back-end</li>
+    <li>Quản lý project : github / git-desktop</li>
+    <li>IDE code : netbeans 8.2</li>
+    <li>Database : phpMyAdmin (xampp)</li>
+  </ul>
+</li>
+<li> 
+  <ul> Trang web tham khảo :
+      <li>https://www.w3schools.com  (html/ css / js  / php) </li>
+      <li>https://www.mysql.com  (mysql)</li>
+  </ul>
+  </li>
+<ul>
 <hr>
-
-Ngôn ngữ sd : 
-
-php html css js
-
-Quản lý file dùng git . IDE netbean 8.0.2 . push commit = gitdesktop
-
-CSDL: phpMyAdmin ( xampp ) / truy vấn sd mysqli+php
-
-<hr>
-Chức năng :<br/>
+  
+2 Chức năng :<br/>
 +Trong phần hiển thị thông tin người dùng không hiển thị hóa đơn hiện tại
 
 +Show sản phẩm bán chạy / ưa thích / sp mới nhất / sp có khuyến mãi / sp hàng vn / theo danh mục sp
@@ -39,9 +44,10 @@ Chức năng :<br/>
 -Quản lý ds nhân viên
 -Quản lý hóa đơn (trạng thái đơn hàng)
 -Quản lý danh mục sp ( thêm sửa xóa sp / sp khuyến mãi)
--Tính toán doanh thu :(không làm nữa :|)
-
+-Tính toán doanh thu :(không có)
+-Quản lý lỗi do người dùng báo cáo về hệ thống
 <hr>
+
 Mô hình csdl:
 
 1: Bảng sản phẩm :
