@@ -1,6 +1,8 @@
 # csdl2020-v5 _ web điện thoại _ php
 Đề tài : <a href="https://csdl-2020.000webhostapp.com">Website bán điện thoại di động online </a>
 
+file báo cáo bằng pdf : <a href="https://github.com/pqthinh/csdl2020/blob/master/bao_cao_csdl.pdf" >bao_cao_csdl.pdf Tại đây </a>
+
 https://shorturl.at/eprK9 (<a href="https://docs.google.com/document/d/1x7DE3xb-B_Crvc4eEayqBQXC59vljLrhA8UWSNZlPe8/edit?usp=sharing">XEM báo cáo chi tiết gg docx </a>)<br>
 (LINK gg docx bên trên chứa Chức năng chi tiết + truy vấn cơ bản + Chi tiết các bảng trong csdl )
 
