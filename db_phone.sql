@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Cấu trúc bảng cho bảng `admin`
 --
 
-CREATE TABLE `admin` (
+CREATE TABLE `admi0n` (
   `id` int(12) NOT NULL,
   `ten` varchar(100) NOT NULL,
   `pass` varchar(100) NOT NULL
@@ -46,7 +46,7 @@ INSERT INTO `admin` (`id`, `ten`, `pass`) VALUES
 -- Cấu trúc bảng cho bảng `customer`
 --
 
-CREATE TABLE `customer` (
+CREATE TABLE `0` (
   `id` int(12) NOT NULL,
   `name` varchar(50) DEFAULT NULL,
   `birth` date DEFAULT NULL,
@@ -60,7 +60,7 @@ CREATE TABLE `customer` (
 -- Đang đổ dữ liệu cho bảng `customer`
 --
 
-INSERT INTO `customer` (`id`, `name`, `birth`, `place`, `mobile`, `email`, `idemployee`) VALUES
+INSERT INTO `custo0mer` (`id`, `name`, `birth`, `place`, `mobile`, `email`, `idemployee`) VALUES
 (7, 'Phạm Ngọc A0', '2001-04-30', 'Thai Thuy -Thai Binh', '0123456785', 'PhamVanA@gmail.com', 6),
 (8, 'Pham Van A1', '2002-05-01', 'Hà Nội', '0142563987', 'PhamVanA1@gmail.com', 7),
 (9, 'Pham Van A3', '1997-04-21', 'Thái Bình', '0512369874', 'PhamVanA3@gmail.com', 9),
@@ -86,7 +86,7 @@ CREATE TABLE `donggop` (
 -- Đang đổ dữ liệu cho bảng `donggop`
 --
 
-INSERT INTO `donggop` (`id`, `idthanhvien`, `noidung`, `anh`, `thoigian`) VALUES
+INSERT INTO `donggop0` (`id`, `idthanhvien`, `noidung`, `anh`, `thoigian`) VALUES
 (2, 1, 'Ảnh không khớp với sản phẩm', '86s-Hong-1.jpg', '2020-05-29 01:13:54'),
 (3, 1, 'Không báo lỗi được', 'ảnh.png', '2020-05-29 01:24:53'),
 (9, 1, 'test paste ảnh lần 3', 'ảnh.png', '2020-05-29 01:39:51'),
@@ -155,7 +155,7 @@ INSERT INTO `giohang` (`idgiohang`, `idproduct`, `id`, `soluong`) VALUES
 -- Cấu trúc bảng cho bảng `hoadon`
 --
 
-CREATE TABLE `hoadon` (
+CREATE TABLE `hoadon0` (
   `mahoadon` int(12) NOT NULL,
   `idcustomer` int(12) NOT NULL,
   `idproduct` varchar(50) NOT NULL,
@@ -168,7 +168,7 @@ CREATE TABLE `hoadon` (
 -- Đang đổ dữ liệu cho bảng `hoadon`
 --
 
-INSERT INTO `hoadon` (`mahoadon`, `idcustomer`, `idproduct`, `ngayban`, `soluong`, `trangthai`) VALUES
+INSERT INTO `hoad0on` (`mahoadon`, `idcustomer`, `idproduct`, `ngayban`, `soluong`, `trangthai`) VALUES
 (13, 8, 'A-Vsmart-Joy-33/32', '2020-04-27 00:00:00', 2, NULL),
 (14, 7, 'iPhone-11-Pro-512GB', '2020-04-27 15:28:20', 2, NULL),
 (15, 10, 'Vsmart-Joy-2-plus2/32', '2020-04-27 15:29:02', 3, 1),
@@ -211,7 +211,7 @@ DELIMITER ;
 -- Cấu trúc bảng cho bảng `image`
 --
 
-CREATE TABLE `image` (
+CREATE TABLE `im0age` (
   `id_image` int(12) NOT NULL,
   `ten_anh` varchar(255) DEFAULT NULL,
   `id_product` varchar(50) DEFAULT NULL,
@@ -248,7 +248,7 @@ INSERT INTO `image` (`id_image`, `ten_anh`, `id_product`, `chucnang`, `upload`, 
 -- Cấu trúc bảng cho bảng `productline`
 --
 
-CREATE TABLE `productline` (
+CREATE TABLE `productl0ine` (
   `idproductline` varchar(50) NOT NULL,
   `nameproductline` varchar(100) NOT NULL,
   `intro` text DEFAULT NULL,
@@ -272,7 +272,7 @@ INSERT INTO `productline` (`idproductline`, `nameproductline`, `intro`, `image`)
 -- Cấu trúc bảng cho bảng `products`
 --
 
-CREATE TABLE `products` (
+CREATE TABLE `prod0ucts` (
   `idproduct` varchar(50) NOT NULL,
   `nameproduct` varchar(100) DEFAULT NULL,
   `idproductline` varchar(100) DEFAULT NULL,
@@ -295,7 +295,7 @@ CREATE TABLE `products` (
 -- Đang đổ dữ liệu cho bảng `products`
 --
 
-INSERT INTO `products` (`idproduct`, `nameproduct`, `idproductline`, `idinfo`, `operator`, `ram`, `chip`, `camera`, `battery`, `quantity`, `buyprice`, `sellprice`, `brand`, `screen`, `image`, `upload`) VALUES
+INSERT INTO `prod0cts` (`idproduct`, `nameproduct`, `idproductline`, `idinfo`, `operator`, `ram`, `chip`, `camera`, `battery`, `quantity`, `buyprice`, `sellprice`, `brand`, `screen`, `image`, `upload`) VALUES
 (' A-Bphone-B86s', ' Bphone B86s', 'sm-android', ' A-Bphone-B86', 'BOS 8.6 (Android 9)', '4/128GB', 'Chipset: Qualcomm Snapdragon 675, 8 nhân: 2 nhân 2.0GHz Kryo Gold, 6 nhân 1.7GHz Kryo Silver<br>Chip đồ họa (GPU): Qualcomm® Adreno™ 612 GPU', 'Camera AI - Tiên phong nhiếp ảnh điện toán. Camera chính PDAF Dual pixel 2 cảm biến trong 1 ống kính (12Mp cho ảnh + 12Mp cho lấy nét), khẩu độ F/1.8 lấy nét cực nhanh và camera phụ hỗ trợ xóa phông', '3000mAh', 37, 8000000, 9990000, 'Bkav', '6.1 inches, công nghệ COF<br>Tràn đáy, Full HD+, rất nhạy & sáng', '86s-Hong-1.jpg', '2020-05-12 17:16:45'),
 ('A-Bphone-B86', ' Bphone B86', 'sm-android', ' A-Bphone-B86', 'BOS 8.6 (Android 9)', '4/64GB', 'Chipset: Qualcomm Snapdragon 675, 8 nhân: 2 nhân 2.0GHz Kryo Gold, 6 nhân 1.7GHz Kryo Silver<br>Chip đồ họa (GPU): Qualcomm® Adreno™ 612 GPU', 'Camera AI - Tiên phong nhiếp ảnh điện toán. Camera chính PDAF Dual pixel 2 cảm biến trong 1 ống kính (12Mp cho ảnh + 12Mp cho lấy nét), khẩu độ F/1.8 lấy nét cực nhanh và camera phụ hỗ trợ xóa phông', '3000mAh', 48, 7000000, 8990000, 'Bkav', '6.1 inches, công nghệ COF<br>Tràn đáy, Full HD+, rất nhạy & sáng', 'bphone-b86s-thumb-tam-600x600.jpg', '2020-05-12 17:24:56'),
 ('A-Bphone3-pro', 'Bphone 3 Pro', 'sm-android', 'A-Bphone-B86', 'Android 9.0', '4/64G', 'Snapdragon 720G 8nm', 'Camera sau :16Mp Camera trươc : 5Mp', '5000mAp.h', 9, 5900000, 6900000, 'Bkav', '5.9 inchs', 'bphone-3-pro.jpg', '2020-05-18 11:46:25'),
